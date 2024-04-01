@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+ }
+ header{
+    background-image: url(./photo/Superlogo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+ .logo a{
+ color: #fff;
+ padding: 0px 20px;
+ border: 1px solid #fff;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ text-transform: uppercase;
+ text-decoration: none;
+ font-weight: 900;
+ }
+ ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+ }
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+ }
+ ul li a:hover{
+    background: #fff;
+    color: black;
+ }
+ ul li.active a{
+ background: #fff;
+ color: black;
+ }
+ .principale{
+    max-width: 114rem;
+    margin: 0 auto;
+ }
+ .titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .titre h1{
+    color: #fff;
+    font-size: 50px;
+ }
